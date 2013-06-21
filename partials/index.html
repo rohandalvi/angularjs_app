@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <p ng-show="bookmarks.length == 0">There are no bookmarks added yet!</p>
+    <ul>
+        <li ng-repeat="(id, bookmark) in bookmarks">
+            <a href="#/info/{{id}}">{{bookmark.name}}</a>
+            [<a href="#/remove/{{id}}">remove</a>
+        </li>
+    </ul>
+    <a href="#/add">Add new bookmark</a>
+</body>
+</html>
