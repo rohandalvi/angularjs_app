@@ -11,6 +11,14 @@ bookmarkmanager.controller('AppCtrl',
             name:'Google',
             url:'http://www.google.com',
             dateAdded:'06/19/2013'
+        },{
+            name:'Facebook',
+            url:'http://www.facebook.com',
+            dateAdded:'06/19/2013'
+        },{
+            name:'Yahoo',
+            url:'http://www.yahoo.com',
+            dateAdded:'06/18/2013'
         }];
     }
 );
